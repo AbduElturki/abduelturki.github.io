@@ -29,12 +29,14 @@ career-profile:
     summary: |
       I'm a University of Bristol Graduate in Computer Science & Electronics with a
       deep interest in Computer Architecture, HPC, DSP, and Scientific and low-level Programming.
-      In my free time, I like reading about CPU/GPU specifications sheets and learn how they workr, where
+      In my free time, I like reading about CPU/GPU specifications sheets and learn how they work, where
       my favourite project is simulator of an out-of-order non-blocking CPU.
-      In my career, I have experience working as low-level/real-time programmer working on embedded devices
+      In my career, I have a experience in low-level/real-time programming, working on embedded devices
       such as NVIDIA Jetson, Texus Instruments C6678 DSP, and various different FPGAs.
-      Currently, I'm working for [Graphcore](https://graphcore.ai) as a graduate member of silicon team, rotating into
+      Currently, I'm working for [Graphcore](https://graphcore.ai) 
+      as a graduate member of the silicon team, rotating into
       physical design, verification, and RTL teams.
+
 education:
     - degree: MEng in Computer Science & Electronics with First Class Honours 
       university: University of Bristol 
