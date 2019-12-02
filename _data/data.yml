@@ -3,187 +3,108 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Abdu Elturki 
+    tagline: HPC & Computer Architecture Enthusiast 
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: abdu@elturki.com 
+    phone: 
+    website: abdu.uk #do not add http://
+    linkedin: abduelturki 
+    github: abduelturki 
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@abduelturki'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
-
 career-profile:
-    title: Career Profile
+    title: About me 
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      University of Bristol Graduate in Computer Science & Electronics. 
+      I have deep interest in Computer Architecture, HPC, DSP, and Scientific and low-level Programming.
+      In my free time, I like reading about CPU/GPU specifications sheets and learn how they work, where my
+      favourite project was writing simulator for a CPU.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
+    - degree: MEng in Computer Science & Electronics with First Class Honours 
+      university: University of Bristol 
+      time: 2015 - 2019
+      details: 
+
+    - degree: Foundation in Engineering with Distinction 
+      university: University of Brighton International College
       time: 2014 - 2015
-      company: Google, London
+      details: 
+
+experiences:
+    - role: Member of the Silicon Team 
+      time: Sep 2019 - Present 
+      company: Graphcore Limited, Bristol UK 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+       Graduate Role, currently in Physical Design team rotating into Verifcation and RTL in future.
+
+    - role: Embedded Software Engineer
+      time: July 2019 - Aug 2019
+      company: QLM Technology LTD, Bristol UK 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+       Contract summer job after graduating and before starting my career at Graphcore. During my time at QLM I have accomplished the following
+          - Optimized existing Matlab code 80x speed up by rewriting it in Julia combined with calls to C functions and utilizing parallel programming. 
+          - Created tools and library for the host machine to communicate with a FPGA.
+          - Provided better work flow for the company with version control using Git, writing documentations and using open source languages and tools.
+
+    - role: Research Engineer (Machine Learning) 
+      time: Jan 2018 - Mar 2019
+      company: Toshiba Research Europe Limited, Bristol UK 
+      details: |
+       From Jan 2018 to Sep 2018 I was working fulltime at Toshiba as Research Engineer in Machine learning. Afterwards I was working part time while finishing my masters degree. During my time there I have accomplished the following.
+          - Invented and filed a patent of a system that reduces network traffic by 60% of Distributed Neural Network by using Reinforcement Learning.
+          - Used machine learning library such as Tensorflow on Embedded devices like NVIDIA Jetson to simulate IoT networks.
+          - Produced demos using JavaScript and ReactJS so it can be used for general meetings and conferences.
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Superscaler CPU Simulator 
+        link: "https://github.com/AbduElturki/Simple_Superscaler_CPU_Simulator"
+        tagline: "A CPU simulator that is capable of Out-of-order execution, speculative execution and converting assembly code to machine code. "
+      - title: Disparity Algorithm Optimisation for TI C6678 DSP 
+        link: "https://github.com/AbduElturki/C667_disparity_opt/blob/master/DSP_Report.pdf"
+        tagline: "Collaborative University Project on optimisng disparity algorithm C code. We were able to make the code run 20 times faster by reducing loops and adding pragma optimisation, while preventing race condition. We also wrote assembly code to compare the performacne, which made our project one of the highest marked in the unit."
+      - title: Jacobi Iterative Method OpenMP Optimisation 
+        link: "https://github.com/AbduElturki/HPC-Jacobi"
+        tagline: "Optimising Jacobi Iterative Method by parallelising subtask using OpenMP and SIMD while ensuring NUMA awareness and preventing race condition."
+      - title: Musication 
+        link: "https://github.com/LukeStorry/musication"
+        tagline: "Collaborative project. A Web app for creating and streaming mappings of music to location using only AWS Lambda. I was working on making the interactive map in React and linking it to DynamoDB for storing music mappings."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python 
         level: 95%
 
-      - name: Ruby on Rails
+      - name: C/C++ 
+        level: 95%
+
+      - name: OpenMP 
+        level: 90%
+
+      - name: Julia
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Cuda 
+        level: 70%
+
+      - name: Tensorflow 
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
