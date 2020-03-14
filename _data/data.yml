@@ -89,6 +89,12 @@ projects:
         link: "https://github.com/LukeStorry/musication"
         tagline: "Collaborative project. A Web app for creating and streaming mappings of music to location using only AWS Lambda. I was working on making the interactive map in React and linking it to DynamoDB for storing music mappings."
 
+publications:
+    title: Patents
+    papers:
+            -title: System and Method For Distributed Learning
+            link: "https://patentimages.storage.googleapis.com/df/7f/94/b1387abf6e0f57/US6155840.pdf"
+            authors: Abdussalam Elturki and Aftab Khan
 
 skills:
     title: Skills &amp; Proficiency
