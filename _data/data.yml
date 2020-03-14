@@ -92,9 +92,10 @@ projects:
 publications:
     title: Patents
     papers:
-            -title: System and Method For Distributed Learning
-            link: "https://patentimages.storage.googleapis.com/df/7f/94/b1387abf6e0f57/US6155840.pdf"
-            authors: Abdussalam Elturki and Aftab Khan
+            - title: System and Method For Distributed Learning
+              link: 'https://patentimages.storage.googleapis.com/28/63/33/769cf817e41b30/US20200034747A1.pdf'
+              authors: Abdussalam Elturki and Aftab Khan
+              conference: US Patent: US20200034747A1 
 
 skills:
     title: Skills &amp; Proficiency
