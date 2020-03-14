@@ -91,6 +91,7 @@ projects:
 
 publications:
     title: Patents
+    intro: 
     papers:
             - title: System and Method For Distributed Learning
               link: "https://patentimages.storage.googleapis.com/28/63/33/769cf817e41b30/US20200034747A1.pdf"
