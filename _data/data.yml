@@ -8,34 +8,26 @@ sidebar:
 
     # Profile information
     name: Abdu Elturki 
-    tagline: Computer Engineer 
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Python & C++ Engineer 
+    avatar: profile.png 
 
     # Sidebar links
-    email: abdu@elturki.com 
-    phone: 
+    email: hello@abdu.uk 
     website: #do not add http://
     linkedin: abduelturki 
     github: abduelturki 
-    gitlab:
-    bitbucket:
     twitter: '@abduelturki'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
 
 career-profile:
     title: About me 
     summary: |
-      I'm a University of Bristol Graduate in Computer Science & Electronics with a
-      deep interest in Computer Architecture, HPC, DSP, and Scientific and low-level Programming.
-      In my free time, I like reading about CPU/GPU specifications sheets and learn how they work, where
-      my favourite project is simulator of an out-of-order non-blocking CPU.
-      In my career, I have a experience in low-level/real-time programming, working on embedded devices
-      such as NVIDIA Jetson, Texus Instruments C6678 DSP, and various different FPGAs.
-      Currently, I'm working for [Graphcore](https://graphcore.ai) 
-      as a graduate member of the silicon team, rotating into
-      physical design, verification, and RTL teams.
+      Member of the Engineering Team at [Graphcore](https://graphcore.ai) working in Silicon Design Verification, where the main programming languages are Python and C++. My main career interests are Computer Architecture, Digital Signal Processing, Low-Level Programming, and High Performance Computing.
+
+      Graduated with First Class Honours in MEng Computer Science and Electronics at [University of Bristol](https://bristol.ac.uk) in 2019. During my time at university, I have accomplished the best project in the department in my 3rd and 4th years. I was part of the [Computer Science Society](https://cssbristol.co.uk/) committee for two years as a press officer and the president of the Computer gaming Society.       
+
+      Prior to starting my university degree, I have obtained an International Foundation degree in Engineering at the University of [Brighton International College](https://www.kaplanpathways.com/colleges/university-of-brighton-international-college/).
+      My early education was in Libya, as I have lived there for 17 years.
 
 education:
     - degree: MEng in Computer Science & Electronics with First Class Honours 
@@ -43,51 +35,54 @@ education:
       time: 2015 - 2019
       details: 
 
-    - degree: Foundation in Engineering with Distinction 
+    - degree: International Foundation in Engineering with Distinction 
       university: University of Brighton International College
       time: 2014 - 2015
       details: 
 
 experiences:
-    - role: Member of the Silicon Team 
+    - role: Member of the Engineering Team 
       time: Sep 2019 - Present 
       company: Graphcore Limited, Bristol UK 
       details: |
-       Graduate Role, currently in Physical Design team rotating into Verifcation and RTL in future.
+       Verification Engineer. The main programming languages are C++ and Python. My current responsibilities are:
+          - Modeling parts of an IPU in C++ to test the RTL if meets the specification of the architecture.
+          - Creating a packet generator in Python to simulate IPU packet transactions so it can be used for the C++ model and the RTL.
+          - Contribute to the design specification of upcoming chips.
 
-    - role: Embedded Software Engineer
+    - role: Software Engineer Intern
       time: July 2019 - Aug 2019
       company: QLM Technology LTD, Bristol UK 
       details: |
-       Contract summer job after graduating and before starting my career at Graphcore. During my time at QLM I have accomplished the following
+       Internship after graduating and before starting my career at Graphcore. During my time at QLM I have accomplished the following:
           - Optimized existing Matlab code 80x speed up by rewriting it in Julia combined with calls to C functions and utilizing parallel programming. 
-          - Created tools and library for the host machine to communicate with a FPGA.
-          - Provided better work flow for the company with version control using Git, writing documentations and using open source languages and tools.
+          - Created tools and libraries for the host machine to communicate with an FPGA.
+          - Provided better workflow for the company with version control using Git, writing documentation, and using open source languages and tools.
 
     - role: Research Engineer (Machine Learning) 
       time: Jan 2018 - Mar 2019
       company: Toshiba Research Europe Limited, Bristol UK 
       details: |
-       From Jan 2018 to Sep 2018 I was working fulltime at Toshiba as Research Engineer in Machine learning. Afterwards I was working part time while finishing my masters degree. During my time there I have accomplished the following.
-          - Invented and filed a patent of a system that reduces network traffic by 60% of Distributed Neural Network by using Reinforcement Learning.
-          - Used machine learning library such as Tensorflow on Embedded devices like NVIDIA Jetson to simulate IoT networks.
-          - Produced demos using JavaScript and ReactJS so it can be used for general meetings and conferences.
+       From Jan 2018 to Sep 2018 I was working full-time at Toshiba as Research Engineer in Machine learning as part of my undergraduate degree. Afterward, I have worked part-time while completing my degree. 
+          - Invented and filed a patent of a system that reduces network traffic by 60% of Distributed Neural Networks by using Reinforcement Learning.
+          - Used machine learning libraries such as Tensorflow on Embedded devices like NVIDIA Jetson to simulate IoT networks.
+          - Produced demos using JavaScript and ReactJS so they can be used for general meetings and conferences.
+
 projects:
     title: Projects
     intro: 
     assignments:
+      - title: Gameboy Emulator
+        tagline: Developing a Gameboy Emulator. Work in progress.
       - title: Superscaler CPU Simulator 
         link: "https://github.com/AbduElturki/Simple_Superscaler_CPU_Simulator"
         tagline: "A CPU simulator that is capable of Out-of-order execution, speculative execution and converting assembly code to machine code. "
       - title: Disparity Algorithm Optimisation for TI C6678 DSP 
         link: "https://github.com/AbduElturki/C667_disparity_opt/blob/master/DSP_Report.pdf"
-        tagline: "Collaborative University Project on optimisng disparity algorithm C code. We were able to make the code run 20 times faster by reducing loops and adding pragma optimisation, while preventing race condition. We also wrote assembly code to compare the performacne, which made our project one of the highest marked in the unit."
-      - title: Jacobi Iterative Method OpenMP Optimisation 
-        link: "https://github.com/AbduElturki/HPC-Jacobi"
-        tagline: "Optimising Jacobi Iterative Method by parallelising subtask using OpenMP and SIMD while ensuring NUMA awareness and preventing race condition."
+        tagline: "Collaborative University Project on optimizing disparity algorithm C code. We were able to make the code run 20 times faster by reducing loops and adding pragma optimization while preventing race conditions. We also wrote assembly code to compare the performance, which made our project one of the highest marks in the unit."
       - title: Musication 
         link: "https://github.com/LukeStorry/musication"
-        tagline: "Collaborative project. A Web app for creating and streaming mappings of music to location using only AWS Lambda. I was working on making the interactive map in React and linking it to DynamoDB for storing music mappings."
+        tagline: "Collaborative project. A Web app for creating and streaming mappings of music to a location using only AWS Lambda. I was working on making the interactive map in React and linking it to DynamoDB for storing music mappings."
 
 publications:
     title: Patents
@@ -98,34 +93,3 @@ publications:
               authors: Abdussalam Elturki and Aftab Khan
               conference: US Patent US20200034747A1 
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python 
-        level: 95%
-
-      - name: C/C++ 
-        level: 95%
-
-      - name: OpenMP 
-        level: 90%
-
-      - name: Julia
-        level: 85%
-        
-      - name: Tensorflow 
-        level: 80%
-
-      - name: Cuda 
-        level: 70%
-
-      - name: Haskell
-        level: 60%
-
-      - name: React
-        level: 40%
-
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

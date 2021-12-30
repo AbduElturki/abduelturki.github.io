@@ -3,11 +3,10 @@
 # Site Settings
 title: Abdu Elturki 
 url: 'http://abdu.uk'
-baseurl: 'abduelturki.github.io' #change it according to your repository name
-description: Abdu Elturki - Computer Engineer 
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: turquoise # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+#baseurl: 'abduelturki.github.io' #change it according to your repository name
+description: Abdu Elturki 
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: 4B6A78 
 
 # Tracker
 analytics:
@@ -30,5 +29,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: localhost
 safe: false
