@@ -4,11 +4,11 @@ sidebar:
 
     # Profile information
     name: Abdu Elturki 
-    tagline: Python & C++ Engineer 
+    tagline: Software engineer specilised in chip modelling and computer architecture. 
     avatar: profile.png 
 
     # Sidebar links
-    email: hello@abdu.uk 
+    email: 
     website: #do not add http://
     linkedin: abduelturki 
     github: abduelturki 
@@ -18,8 +18,6 @@ sidebar:
 career-profile:
     title: About me 
     summary: |
-      Software Engineer at [Intel](https://www.intel.co.uk) developing C++ models of Programmable Network Switching ASICs. My main career interests are Computer Architecture, Digital Signal Processing, Low-Level Programming, and High Performance Computing.
-
       Graduated with First Class Honours in MEng Computer Science and Electronics at [University of Bristol](https://bristol.ac.uk) in 2019. During my time at university, I have accomplished the best project in the department in my 3rd and 4th years. I was part of the [Computer Science Society](https://cssbristol.co.uk/) committee for two years as a press officer and the president of the Computer Gaming Society.       
 
       Prior to starting my university degree, I have obtained an International Foundation degree in Engineering at the [University of Brighton International College](https://www.kaplanpathways.com/colleges/university-of-brighton-international-college/).
@@ -39,10 +37,19 @@ education:
       details: 
 
 experiences:
-    - role: Cloud Software Development Engineer 
-      time: April 2022 - Current
+    - role: NPU Model Performance Engineer
+      time: March 2023 - Current
+      company: Neubla UK
+      details: Developing perfomance modelling tools for NPUs
+
+    - role: Cloud Software Development Engineer (Model C++ Engineer) 
+      time: April 2022 - March 2023 
       company: Intel, UK 
-      details: Software Engineer developing register accurate C++ models of Programmable Network Switching ASICs. 
+      details: |
+        Software Engineer, developed C++ functional models of now cancelled product Intel Tofino network switches. 
+          - Implemented P4 Language level logging for the model to provide insight into the execution of P4 compiled code.
+          - Took iniative to modernize legacy code by converting it to C++17 Standard, resulting in improved maintainability and efficiency.
+          - Coordinating with drivers and compiler ream to support new chip blocks to the model, during silicon development. 
 
     - role: Member of the Engineering Team 
       time: Sep 2019 - April 2022 
