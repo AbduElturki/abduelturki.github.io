@@ -18,12 +18,11 @@ sidebar:
 career-profile:
     title: About me 
     summary: |
-      Graduated with First Class Honours in MEng Computer Science and Electronics at [University of Bristol](https://bristol.ac.uk) in 2019. During my time at university, I have accomplished the best project in the department in my 3rd and 4th years. I was part of the [Computer Science Society](https://cssbristol.co.uk/) committee for two years as a press officer and the president of the Computer Gaming Society.       
+      My expertise centers on C++ and Python, focusing on Performance Modelling and Kernel development. 
+      I also explore Rust and CUDA at a hobbyist level, expanding my understanding beyond my professional experience. 
+      Driven by the challenge of enhancing system performance, I aim to achieve this better superior architectural designs and sound software practices.
 
-      Prior to starting my university degree, I have obtained an International Foundation degree in Engineering at the [University of Brighton International College](https://www.kaplanpathways.com/colleges/university-of-brighton-international-college/).
-      My early education was in Libya, as I have lived there for 17 years.
-
-      Apart from coding, I like to read and rock climb. I'm fluent in English and Arabic.
+      I’m always keen to learn more about emerging trends in computer architecture and software development.
 
 education:
     - degree: MEng in Computer Science & Electronics with First Class Honours 
@@ -38,18 +37,22 @@ education:
 
 experiences:
     - role: NPU Model Performance Engineer
-      time: March 2023 - Current
+      time: March 2023 - October 2024 
       company: Neubla UK
-      details: Developing perfomance modelling tools for NPUs
+      details: |
+        Hanwha Vision subsidiary - A company that ceased activities due to funding constraints at the parent organization.
+          - Led development of ISA specification API repository, enhancing cross-project compatibility in the Neubla ecosystem.
+          - Implemented multi-version ISA support in Instruction Set Simulator, integrating checkpoint functionality for state preservation.
+          - Designed new Neubla RISC-V intrinsic to reduce encoding errors and improve code reliability.
 
-    - role: Cloud Software Development Engineer (Model C++ Engineer) 
+    - role: Cloud Software Development Engineer 
       time: April 2022 - March 2023 
       company: Intel, UK 
       details: |
         Software Engineer, developed C++ functional models of now cancelled product Intel Tofino network switches. 
-          - Implemented P4 Language level logging for the model to provide insight into the execution of P4 compiled code.
-          - Took iniative to modernize legacy code by converting it to C++17 Standard, resulting in improved maintainability and efficiency.
-          - Coordinating with drivers and compiler ream to support new chip blocks to the model, during silicon development. 
+          - Led the development of trace functionality for legacy Tofino chips, ensuring seamless hardware unit execution mapping with customer-provided P4 scripts.
+          - Modernized legacy code by migrating it to the C++17 standard, enhancing code maintainability and operational efficiency.
+          - Development of a C++ functional model for ternary content-addressable memory (TCAM), aligning with design specifications.• Led the development of trace functionality for legacy Tofino chips, ensuring seamless hardware unit execution mapping with customer-provided P4 scripts. • Modernized legacy code by migrating it to the C++17 standard, enhancing code maintainability and operational efficiency. • Development of a C++ functional model for ternary content-addressable memory (TCAM), aligning with design specifications.
 
     - role: Member of the Engineering Team 
       time: Sep 2019 - April 2022 
